@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+  background-image: url(../img/gingham-bg.png);
+  background-repeat: round;
+}
+#game{
+  width: 727px;
+  height: 620px;
+  margin: 3% 20% 0 20%;
+  padding-top: 5%;
+  padding-left: 25px;
+  background-image: url(../img/kindpng_paper.png);
+  background-repeat: no-repeat;
+}
+#word{
+  font-size: 72px;
+}

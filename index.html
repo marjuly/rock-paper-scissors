@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guess the word</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+      <div id="game">
+
+          <h1>
+              Guess the secret word:
+            </h1>
+            <h1 id="word">
+              
+            </h1>
+            <input type="text" placeholder="Take a guess..." id="myInput" />
+            <button type="button" id="takeGuess" onclick="doTheThing()">
+              guess
+            </button>
+            <h2 id="hint">take a guess</h2>
+            <button type="button" id="newWord" onclick="resetWord()">
+                try a new word
+              </button>
+  
+      </div>
+    
+    
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
